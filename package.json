@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "discord.js": "^13.2.0",
+    "axios": "^0.21.1",
+    "canvacord": "^5.1.0",
+    "discord-canvas": "^1.4.1",
+    "dotenv": "^8.2.0",
+    "fs": "0.0.1-security",
+    "moment": "^2.29.1",
+    "ms": "^2.1.2",
+    "nekos.life": "^2.0.7",
+    "node-fetch": "^2.6.1",
+    "request": "2.81.0",
+    "simply-djs": "^2.0.96",
+    "simsimi": "^3.0.0"
+  },
+  "name": "vnc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
