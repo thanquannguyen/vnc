@@ -4,6 +4,10 @@ const moment = require('moment')
 const Discord = require('discord.js');
 const { Intents, MessageEmbed, MessageActionRow, MessageButton } = require('discord.js')
 const request = require('request');
+
+const keepAlive = require('./server');
+keepAlive();
+
 const client = new Discord.Client({
   shards: "auto",
   partials: ['MESSAGE', 'CHANNEL', 'REACTION'],
